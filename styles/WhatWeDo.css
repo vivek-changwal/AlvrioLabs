@@ -1,0 +1,127 @@
+.girl-laptop {
+  top: 19px;
+  left: 25px;
+}
+.wwd-left-zig-zag {
+  left: 489px;
+  top: 285px;
+}
+.wwd-three-line {
+  top: 42px;
+  left: 132px;
+}
+.file {
+  top: 88px;
+  left: 159px;
+}
+.computer {
+  top: 259px;
+  left: 29px;
+}
+.wwd-right-zig-zag {
+  top: 217px;
+  left: 72px;
+}
+.wwd-cloud {
+  top: 243px;
+}
+.tablet {
+  left: 257px;
+  top: 20px;
+}
+.wwd-square {
+  left: 340px;
+  top: 400px;
+}
+.wwd-number {
+  left: 397px;
+  bottom: 22px;
+}
+.wwd-pyramid {
+  left: 430px;
+  top: 245px;
+}
+.wwd-cross {
+  left: 287px;
+  top: 460px;
+}
+.wwd-add1 {
+  left: 383px;
+  top: 29px;
+}
+.wwd-add2 {
+  left: 282px;
+  top: 198px;
+}
+.wwd-add-3 {
+  left: 322px;
+  top: 357px;
+}
+.wwd-search {
+  left: 177px;
+  top: 224px;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .images-what {
+    position: relative !important;
+  }
+
+  .text-what {
+    position: relative;
+    margin-top: 532px;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .girl-laptop {
+    top: 450px;
+    left: 165px;
+    position: absolute;
+  }
+  .wwd-add1 {
+    left: 105px;
+    top: -46px;
+  }
+  .wwdadd2 {
+    left: 281px;
+  }
+  .wwd-add-3 {
+    top: 242px;
+    left: 29px;
+  }
+  .wwd-right-zig-zag {
+    left: 224px;
+    top: 450px;
+    width: 50px;
+  }
+  .wwd-three-line {
+    top: 370px;
+    left: 159px;
+    position: absolute;
+  }
+  .file {
+    left: 224px;
+    top: 321px;
+    width: 80px;
+  }
+  .wwd-pyramid {
+    left: 304px;
+    top: 390px;
+    width: 40px;
+  }
+  .wwd-cross {
+    left: 304px;
+    top: 450px;
+    width: 80px;
+  }
+  .wwd-square {
+    left: 260px;
+    top: 550px;
+    width: 80px;
+  }
+  .text-what {
+    position: relative;
+    margin-top: 2px;
+  }
+}

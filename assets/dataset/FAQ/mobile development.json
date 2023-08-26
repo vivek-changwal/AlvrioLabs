@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "question": "What is the average cost of mobile app development?",
+      "ans": "The average cost of mobile app development varies widely, ranging from $20,000 to $100,000 or more, depending on factors like complexity, platform, and features."
+    },
+    {
+      "id": 2,
+      "question": "Which platform is better for mobile app development, iOS, or Android?",
+      "ans": "The platform choice depends on your target audience. iOS caters to a more affluent demographic, while Android has a larger global market share. It's best to consider your audience's preferences and market reach."
+    },
+    {
+      "id": 3,
+      "question": "How long does it take to develop a mobile app?",
+      "ans": "Development time depends on the app's complexity. A simple app may take 2 to 4 months, while a more intricate app could require 6 to 12 months for completion."
+    },
+    {
+      "id": 4,
+      "question": "Do you provide ongoing support and maintenance after app launch?",
+      "ans": "Yes, we offer post-launch support to ensure your app remains up-to-date, secure, and functional. Our maintenance packages cater to various needs."
+    },
+    {
+      "id": 5,
+      "question": "Can you assist in publishing the app to app stores?",
+      "ans": "Absolutely! Our team assists with the app submission process, ensuring compliance with store guidelines and optimizing the app's chances of approval."
+    }
+  ]
+  

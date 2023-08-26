@@ -1,0 +1,27 @@
+[
+      {
+        "id": 1,
+        "question": "Understand the Business Problem",
+        "ans": "Begin any data science project by thoroughly understanding the business problem you aim to solve. Clear objectives will guide your analysis and modeling efforts."
+      },
+      {
+        "id": 2,
+        "question": "Data Quality Matters",
+        "ans": "Ensure data quality and reliability before proceeding with analysis. Data cleaning and preprocessing are critical steps in any data science workflow."
+      },
+      {
+        "id": 3,
+        "question": "Exploratory Data Analysis (EDA)",
+        "ans": "Perform EDA to gain insights into the data, identify patterns, relationships, and potential outliers. EDA helps in forming hypotheses for further analysis."
+      },
+      {
+        "id": 4,
+        "question": "Feature Engineering",
+        "ans": "Select or create relevant features from the data that will have the most impact on model performance. Feature engineering can significantly improve model accuracy."
+      },
+      {
+        "id": 5,
+        "question": "Model Selection",
+        "ans": "Choose appropriate machine learning algorithms that align with your problem and data characteristics. Consider factors like interpretability, complexity, and performance."
+      }
+]

@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "question": "What is an API?",
+      "ans": "An API (Application Programming Interface) is a set of rules and protocols that allows different software applications to communicate and interact with each other. It defines the methods and data formats that applications can use to request and exchange information."
+    },
+    {
+      "id": 2,
+      "question": "What are the common types of APIs?",
+      "ans": "There are several types of APIs, but the most common ones are:\n\n1. **Web APIs (HTTP/RESTful APIs):** These APIs are accessed over the internet using HTTP methods like GET, POST, PUT, DELETE, etc.\n\n2. **Library APIs:** These APIs are provided by programming languages or libraries and allow developers to access pre-built functions and features.\n\n3. **Hardware APIs:** These APIs provide access to hardware features and capabilities of devices, such as cameras or sensors.\n\n4. **Internal APIs:** APIs used internally within an organization or company to enable communication between different services and systems."
+    },
+    {
+      "id": 3,
+      "question": "What are the key benefits of using APIs in software development?",
+      "ans": "APIs offer several advantages, including:\n\n1. **Modularity and Reusability:** APIs promote modular design, allowing developers to reuse existing code and functionalities in different applications.\n\n2. **Interoperability:** APIs enable applications to work together, even if they are built on different platforms or technologies.\n\n3. **Faster Development:** By leveraging APIs, developers can save time by not reinventing the wheel and focus on core application logic.\n\n4. **Scalability:** APIs allow applications to scale, as different components can communicate independently.\n\n5. **Security and Controlled Access:** APIs can enforce access controls, ensuring only authorized users or applications can interact with certain functionalities."
+    },
+    {
+      "id": 4,
+      "question": "What is RESTful API?",
+      "ans": "RESTful (Representational State Transfer) API is an architectural style for designing networked applications. It uses standard HTTP methods like GET, POST, PUT, DELETE to perform CRUD (Create, Read, Update, Delete) operations on resources. RESTful APIs are stateless, meaning each request contains all the information necessary for the server to understand and process it."
+    },
+    {
+      "id": 5,
+      "question": "How is API documentation important?",
+      "ans": "API documentation is crucial for developers who want to use an API. It provides clear and comprehensive guidelines on how to interact with the API, what endpoints to call, required parameters, response formats, error handling, and authentication methods. Good API documentation makes it easier for developers to integrate the API into their applications, reducing development time and minimizing errors."
+    }
+  ]
+  

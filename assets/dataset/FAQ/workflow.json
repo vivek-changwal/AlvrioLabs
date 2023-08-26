@@ -1,0 +1,29 @@
+[
+      {
+        "id": 1,
+        "question": "Identify Repetitive Tasks",
+        "ans": "Begin by identifying tasks or processes that are repetitive and manual in nature. These are good candidates for automation."
+      },
+      {
+        "id": 2,
+        "question": "Map Out the Workflow",
+        "ans": "Map out the entire workflow, including inputs, processes, and outputs. Understanding the workflow is essential for effective automation."
+      },
+      {
+        "id": 3,
+        "question": "Select the Right Automation Tools",
+        "ans": "Choose automation tools or platforms that align with your specific workflow requirements and integrate well with existing systems."
+      },
+      {
+        "id": 4,
+        "question": "Start with Simple Automation",
+        "ans": "Begin with automating simple and well-defined tasks to gain confidence and experience with the automation process."
+      },
+      {
+        "id": 5,
+        "question": "Test and Validate",
+        "ans": "Thoroughly test the automation process to ensure accuracy and reliability. Validate results against manual execution to confirm correctness."
+      }
+]
+  
+  

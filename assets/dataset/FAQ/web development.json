@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "question": "How much does web app development cost?",
+      "ans": "The cost of custom web application development varies between $35,000 to $200,000. There are several factors that further impact the overall web development budget like UI/UX design of the web app, the coding process, technologies and features integrated in the web app, etc."
+    },
+    {
+      "id": 2,
+      "question": "Which platform is best for web app development?",
+      "ans": "The best platform for web app development can be decided as per the custom business requirements, the features to be integrated into the app, the platform for which the app is to be developed."
+    },
+    {
+      "id": 3,
+      "question": "How long does it take to develop a web app?",
+      "ans": "The time frame to develop a web app varies as per its complexity. For instance, a simple web app with minimum features can take around 3 to 4 months for development. On the other hand, a highly complex web app with an extensive feature list can take around 8 to 9 months for development."
+    },
+    {
+      "id": 4,
+      "question": "Will I be getting any support after project completion?",
+      "ans": "Yes, we offer in-depth post app launch maintenance support to our clients. Under which, we look into design update requirements, UAT, version updates, etc."
+    },
+    {
+      "id": 5,
+      "question": "How do you allocate the resources for my app development?",
+      "ans": "We have several SMEs in our development and business analysis team. So, will start with looking into your app idea - the sector it belongs to and the technology stack it needs - and then allocate the best suited SME who has experience in your chosen industry."
+    }
+  ]
+  

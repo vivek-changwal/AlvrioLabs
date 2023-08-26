@@ -1,0 +1,93 @@
+{
+  "pages": [
+    {
+      "title": "PRODUCT DEVELOPMENT",
+      "path": "/product-development",
+      "textclass1": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-2",
+      "textclass2": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-2 mx-auto lg:py-2",
+      "textclass3": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "heading": "PRODUCT DEVELOPMENT",
+      "heading2": "Your Idea + Our Expertise = Top Class Product",
+      "content1": "<p>We turn your business idea into technical reality by putting custom skill  sets in place. Our proficient product managers with insightful perception and  experience  can  bridge  the  gap  between  business  vision  and technical understanding. Our customized approach helps you create web applications,  mobile  applications,  chatbots,  and  custom  portals.  Our services ensure iterative development using advanced technologies for faster time-to-market, robustness, and scalability.</p>",
+      "content2": "<p><strong>STAGES OF PRODUCT DEVELOPMENT</strong></p> <br> <ul> <li>Idea & Requirement </li> Planning <li> Designing </li> Development <li> Testing </li> <li> Demo </li> <li>Launch  </li> </ul>",
+      "image1": "/agile-method-amico.svg",
+      "image4": "<img src=/agile-method.svg width=500 height=500 />",
+
+      "image2": "<img src=/agile-method-cuate.svg width=500 height=500 />",
+      "image3": "<img src=/Programmer-amico.svg width=500 height=500 />",
+      "content3": "<h4><b>TECHNOLOGY STACK</b></h4><br /> <ul><li><b>Backend</b>: NodeJS, Ruby on Rails, Python (Django and Flask) </li> <li> <b>Frontend</b>: ReactJS, AngularJS, VueJS, HTML5, CSS3</li> <li><b>Mobile</b>: React Native, Java, Swift, Ionic, Flutter, Kotlin</li><li> <b>DevOps</b>: AWS, Heroku, Jenkins, Ansible, Zabbix </li></ul>",
+      "height1": "450px",
+      "width1": "450px"
+    },
+    {
+      "title": "Mobile DEVELOPMENT",
+      "path": "/mobile-development",
+      "heading": "Mobile DEVELOPMENT",
+      "textclass1": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass2": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass3": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "content1": "<p>Fuel  your  business  with  flexible  and  custom  mobile  applications developed by us. We ideologize and create apps that can help your business to vouch for higher ROI from the market. Our experts have  an  in-detail  idea  about  what  it  takes  to  build  an  ideal  mobile application tailoring to your business needs. Right from ideating your application requirements to strategizing them, we convert them into significant  plans  and  end  up  with  market  dominance.  We  can  help  you  create  digitally  transformative,  high-performing,  and  featured-packed cross-platform apps for Android and iOS devices.</p>",
+      "content2": "<p><strong>STAGES OF MOBILE APP DEVELOPMENT</strong></p> <br> <ul> <li>Research </li> Wireframe <li> Prototype </li> Design <li> Develop </li> <li> Testing </li> <li>Deploy  </li> <li>Monitor</li> </ul>",
+      "image1": "/Mobile-development-rafiki.svg",
+      "image2": "<img src=/Mobile-development-rafiki-2.svg width=500 height=500 />",
+      "image3": "<img src=/Programmer-amico.svg width=500 height=500 />",
+      "content3": "<h4><b>TECHNOLOGY STACK</b></h4><br /> <ul <li> <b>iOS app development: </b>: Swift and Objective-C Toolset – Xcode and AppCode</li> <li><b>Android app development:</b>:  Java and Kotlin Toolset- Android Studio</li><li> <b>Hybrid app development:</b> React Native, Flutter, and Ionic</li></ul>"
+    },
+    {
+      "title": "Workflow Automation",
+      "path": "/workflow-automation",
+      "heading": "Workflow Automation",
+      "textclass1": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass2": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass3": "",
+      "content1": "<p>Our  team  makes  work  more  meaningful,  productive,  and efficient  by automating  your  business  processes.  Alvrio  Labs  enables  your organization to manage and optimize your business processes - all with clicks and no code. Now liberate your employees from spending time on repetitive tasks so they can instead focus on high-value, mission-critical work. We use standard practices to integrate and automate workflows for various cloud-based and internal tools</p>",
+      "content3": "",
+      "image1": "/WorkflowAutomation.svg",
+      "image2": "<img src=/WorkflowAutomation2.svg width=500 height=500 />",
+      "image3": "",
+      "content2": "<h4><b>WE FOLLOW A 3 STEP APPROACH </b></h4><br /> <ul <li> <b>Manage:</b>: Unify people, processes, and systems across your organization to drive better business outcomes.</li><li><b>Automate</b>: Streamline sophisticated processes with powerful capabilities to advance your business:</li> <li><b>Optimize</b>Monitor your automated workflows to ensure they are running at peak performance.</li></ul>"
+    },
+    {
+      "title": "Digital Marketing",
+      "path": "/digital-marketing",
+      "textclass1": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass2": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass3": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "content1": "<p>We build your brand name brick by brick through a strategic marketing plan. We help you realize your vision you have for your brand in the digital  realm.    As  per  your  business  requirements,  we  define  your project goals, establish a strategy & timeframe, and determine the KPIs (key  performance  indicators).  Our  experts  prepare  regular  reports  & updates during the implementation cycle so that you can keep track of the project progress. Our Digital Marketing approach ensures long term gain through organic success and other inbound marketing techniques.</p>",
+      "heading": "Digital Marketing",
+      "content2": "<p><strong>STAGES OF DIGITAL MARKETING</strong></p> <br> <ul> <li>GoalDetermination </li> Setting-Up And Defining Your Digital Marketing Strategy <li> Implementation And Traction </li> Conversion And Expansion <li> Target Audience Segmentation </li> <li> Targeting Strategy </li> <li>Beta Roadmap and Results </li> <li>Reporting and Analytics</li></ul>",
+      "image1": "/DigitalMarkert.svg",
+      "image2": "<img src=/DigitalMarkert2.svg width=500 height=500 />",
+      "image3": "<img src=/DigitalMarkert3.svg width=500 height=500 />",
+      "content3": "<h4><b>DIGITAL MARKETING KNOW HOW</b></h4><br /> <ul><ul><b><i>Paid Marketing</b></i></ul><li><b>Google Ads Adsend</b>: PPC/Keywords/Display </li> <li> <b>Social Advertising</b>:FB/Insta/Twitter/LinkedIn/YouTube</li> <li><b>Content Marketing </b></li> <li><b>E-commerce Marketing</b></li><ul><b><i>Organic SEO</b></i></ul><li><b>On Page SEO</b>: Tags optimization/Keyword Research</li><li> <b>Off Page SEO</b>: Blogging/Social Media Optimization </li></ul>"
+    },
+    {
+      "title": "Data Science",
+      "path": "/data-science",
+      "heading": "Data Science",
+      "textclass1": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass2": "",
+      "textclass3": "",
+      "content3": "",
+      "image2": "",
+      "image3": "",
+      "content1": "<p>We  work  closely  with  business  stakeholders  to understand  various  goals  and  how  data  can  be leveraged  to  achieve  them.  We  design  data modeling  processes,  create  algorithms  and predictive models to digest the data available and churn out required insights. We also do MLOps for continuous  delivery  and  automation  of  data pipelines.  We  use  standard  and  hybrid  learning techniques  to  train  the  models  and  deploy  them into production with traceability and versioning</p>",
+      "content2": "",
+      "image1": "/Data.svg"
+    },
+    {
+      "title": "Training and Mentorship",
+      "path": "/training-and-mentorship",
+      "content1": "",
+      "heading": "Training and Mentorship",
+      "textclass1": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 px-4 py-8 mx-auto lg:py-16",
+      "textclass2": "",
+      "textclass3": "",
+      "content3": "",
+      "image2": "",
+      "image3": "",
+      "content2": "",
+      "image1": "/Training.svg"
+    }
+  ]
+}

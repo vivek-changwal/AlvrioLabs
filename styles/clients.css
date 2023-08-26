@@ -1,0 +1,84 @@
+.client-laptop{
+  top: 59px;
+}
+.client-triangle {
+  top: 226px;
+  left: 100px;
+}
+.client-left-pipe {
+  left: 200px;
+}
+.client-plus {
+  left: 273px;
+  top: -24px;
+}
+.client-login {
+  left: 188px;
+  top: 64px;
+}
+.client-glasses {
+  left: 161px;
+  bottom: 263px;
+}
+.client-plus-1 {
+  top: 302px;
+  left: 350px;
+}
+.client-cone {
+  top: 302px;
+  left: 400px;
+}
+.client-arrow {
+  top: 302px;
+}
+.client-right-pipe {
+  top: 322px;
+  left: 420px;
+}
+.client-circle {
+  top: 322px;
+}
+.client-semi-circle {
+  top: 422px;
+}
+.client-zig-zag {
+  left: 180px;
+  top: 422px;
+}
+.client-semi-triangle {
+  left: 180px;
+  top: 452px;
+}
+.client-rocket {
+  left: 356.5px;
+  top: 330px;
+  z-index: 4;
+}
+.client-base {
+  left: 320.5px;
+  top: 399px;
+}
+.client-king {
+  top: 489px;
+}
+.client-zig-zag-top {
+  left: 235.5px;
+  top: 489px;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .images-client {
+    position: relative !important;
+  }
+  .text-client {
+    position: relative;
+    margin-top: 585px;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .client-king{
+    left: 117px;
+    top: 224px;
+  }
+}

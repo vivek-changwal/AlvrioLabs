@@ -1,0 +1,543 @@
+
+<!-- saved from url=(0501)https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&ccpaApplies=0&url_referrer=https%3A%2F%2Fpoki.com%2F&tag=pg-v3.114.0&site_id=3&iso_lang=en&poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&gdhoist=yes&nonPersonalized=n&familyFriendly=n&categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&special_condition=landing&game_id=87ce1a16-3945-11ea-bd44-acde48001122&game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b# -->
+<html style="background: url(&quot;https://evoworld.io/images/pixel.png&quot;) 50% 50% / 282px no-repeat fixed rgb(59, 89, 152); transition: all 1s ease 0s;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+		<meta name="keywords" content="EvoWorld, EvoWorld.io, flyordie, fly or die, io game, browser game, html5 game, multiplayer game">
+		<meta name="description" content="See if you can survive in EvoWorld io - The game with the world full of various creatures. In EvoWorld io you must eat others and evolve to the strongest creature. The previous name of the game was flyordie io">
+		<link rel="shortcut icon" type="image/png" href="https://evoworld.io/images/favicon.png">
+		<meta property="og:site_name" content="EvoWorld.io">
+		<meta property="og:title" content="EvoWorld.io - The game with world full of various creatures">
+		<meta property="og:url" content="https://EvoWorld.io">
+		<meta property="og:image" content="https://evoworld.io/images/evoworld-icon.png"> 
+		<meta property="og:image:width" content="1024">
+		<meta property="og:image:height" content="1024">
+		<meta property="og:type" content="website">
+		<link rel="canonical" href="https://evoworld.io/">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<title>EvoWorld.io | Survive in the world full of various creatures</title>
+		<script type="text/javascript" async="" src="./analytics.js"></script><script type="text/javascript" async="" src="./js"></script><script>var siteUrl='https://evoworld.io/';
+		var adblockDisabled=false;
+		var halloweenPreload=true;
+		</script>
+		<script src="./ads.js"></script>
+		
+			<script>
+			var partner='poki';
+			var pokiEnabled=false;
+			var PokiSDK = {};
+			</script><script src="./poki-sdk.js"></script><script src="./poki-sdk-hoist-v2.373.0.js" type="text/javascript" crossorigin="anonymous"></script>		<script>var partner='poki';</script>
+		<script src="./jquery.min.js"></script>
+		<link href="./icon" rel="stylesheet">	
+		<meta name="google" content="notranslate">
+		
+				
+		<link rel="preload" href="https://evoworld.io/images/guide/eat.jpg" as="image"> 
+		<link rel="preload" href="https://evoworld.io/images/guide/avoid.jpg" as="image"> 
+		<link rel="preload" href="https://evoworld.io/images/guide/water.jpg" as="image"> 
+		<link rel="preload" href="https://evoworld.io/images/guide/skill.jpg" as="image"> 
+		<link rel="preload" href="https://evoworld.io/images/guide/evolve.jpg" as="image"> 
+		<link rel="prefetch" href="./scan-players-done.png" as="image"> 
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		</script>
+	<link id="https://evoworld.io/css/style.css?1691490012" rel="stylesheet" type="text/css" href="./style.css" media="all"><script src="./script.js"></script><script src="./getDictionary.php"></script><script src="./socket.io-2.3.0.js"></script><script src="./jquery.wheelmenu.js"></script><script src="./pve.js"></script><script src="./ui.js"></script><script src="./game_init.js"></script><script src="./shared.js"></script><script src="./functions.js"></script><script src="./game.js"></script></head>
+<body ondragstart="return false;" ondrop="return false;" style="background: black;">
+<div id="preroll"></div>
+<div id="forceLandscape" onclick="$(&#39;#forceLandscape&#39;).hide();fullScreen(true); if (screen &amp;&amp; screen.orientation &amp;&amp; screen.orientation.lock) screen.orientation.lock(&#39;landscape&#39;);">
+	<i class="material-icons">screen_rotation</i>
+	<br>
+	<span data-translate="rotate_device">We suggest to rotate your device</span>
+	<span style="font-size:35%;margin-top:1vh;" data-translate="tap_anywhere">Rotate device or tap anywhere to start the game</span>
+</div>
+	<div id="kick">
+		<div class="kickText"></div>
+	</div>
+
+	
+
+
+<div id="gameContainer" style="display: block; opacity: 1;">
+
+		<div class="endGame" style="opacity: 1; top: 50%; position: absolute; display: none;">
+			<span class="endGameText">You have been killed by 『TM』KING 13 MAX<br><span style="font-size:50%">You will respawn with additional +116075 EXP</span></span><br>
+			<button class="btnPlayAgain" onclick="playAgain()" data-translate="play_again" style="display: none; opacity: 0;">Play Again</button>
+			<div id="ac3" style="display: block; width: 970px; height: 250px;"></div>
+		</div>
+
+		<div class="darkness"></div>
+		
+		<div class="leaderboard">
+		<center><span data-translate="the_best_players">The Best Players</span>:</center>
+		<span class="players"><div style="width:100%;white-space: nowrap;overflow: hidden;"><img src="./star1.png" style="float:left;padding-right: 2px;"><font color="orange" style="float:right;padding:0px 1px;">2479396</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">azure may ∿ ෆ</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><img src="./star2.png" style="float:left;padding-right: 2px;"><font color="orange" style="float:right;padding:0px 1px;">625328</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">Guest_73911566</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><img src="./star3.png" style="float:left;padding-right: 2px;"><font color="orange" style="float:right;padding:0px 1px;">614910</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">『TM』KING 13 MAX</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">4.</font><font color="orange" style="float:right;padding:0px 1px;">518960</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">꧁༒༺ GriM-AccE ༻༒꧂</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">5.</font><font color="orange" style="float:right;padding:0px 1px;">369150</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">ประยุทธ์หัวควย</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">6.</font><font color="orange" style="float:right;padding:0px 1px;">360375</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">〖IP〗(•ㅅ•)</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">7.</font><font color="orange" style="float:right;padding:0px 1px;">349150</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">비켜</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">8.</font><font color="orange" style="float:right;padding:0px 1px;">349150</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">짱아</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">9.</font><font color="orange" style="float:right;padding:0px 1px;">349150</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">짱구</div><br></div><div style="width:100%;white-space: nowrap;overflow: hidden;"><font color="#007490" style="float:left;padding-right: 2px;">10.</font><font color="orange" style="float:right;padding:0px 1px;">349150</font><div style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">(SA) Sir Apic</div><br></div><font color="#007490" style="float:left;padding-right: 2px;">22.</font><font color="orange" style="float:right;padding:0px 1px;">132150</font><font color="#1466b8" style="max-width:85%;overflow:hidden;display: inline-flex;padding: 0px 3px 0px 1px;">Dragon </font><br></span>
+		</div>
+
+		<div class="debugInfo">
+			<div class="server"></div>
+			<div class="latency">ping: <font color="green">34 ms</font></div>
+			<div class="fps">fps: <font color="green">60</font></div>
+			<div class="quality">quality: <font color="black">100%</font></div>
+		</div>
+		
+		<div class="spectators" style="display: none;"><img src="./spectators.png"><div class="count">0</div></div>
+		<div class="skinChangerButton" onclick="$(&#39;.skinChanger&#39;).toggle();" style="display: none;"><img src="./skinChange.png"></div>
+		<div class="skinChanger" style="display: none;"></div>
+		<div class="petChangerButton" onclick="$(&#39;.petChanger&#39;).toggle();$(&#39;.skinChanger&#39;).hide();" style="display: none;"><img src="./petChange.png"></div>
+		<div class="petChanger" style="display: none;"></div>
+		<div class="minimap" style="transform: translate(0px, 0%);"><div class="button" onclick="hideShowMap();"><img src="./planet.png" style="transform: rotate(180deg);"></div><img src="./map.png"><div class="line" style="left: 91.3064%;"></div></div>
+		<div class="conditions"></div>
+		<div class="scanPlayers" style="display: none;"><div class="close" onclick="$(&quot;#gameContainer .scanPlayers&quot;).hide();scanPlayersOpened=false;"></div><div class="title">Scan results</div><br><div style="margin: 0 auto;display: block;width: fit-content;"><div class="player" onclick="scanPlayer(0)"><div class="nick">[6] Dragon</div><img class="sprite-image" data-name="stork_3_right" style="width:153;height:73" src="blob:https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/df921a3d-348d-4e64-aa7a-2eea12c4a5a7"></div></div><div style="clear:both"></div><br><br><center><button class="orange-button" onclick="$(&quot;#gameContainer .scanPlayers&quot;).empty().hide();scanPlayersOpened=false;$(&quot;#scan-players-icon&quot;).data(&quot;status&quot;,&quot;empty&quot;).attr(&quot;src&quot;,siteUrl+&quot;images/scan-players.png&quot;).css(&quot;background&quot;,&quot;rgba(255, 255, 255, 0.562)&quot;);">Clear the results</button></center></div>
+
+		
+		<div class="status">
+			<span id="currentClass">Current: Demonic egg eater</span><div style="float:right"><span id="nextClass">Next: Demonic bat</span></div>
+				<div class="experienceBar" style="background: linear-gradient(90deg, rgb(226, 154, 225) 0%, white 0%);">132150/152150</div>
+				<div style="float:left;width:88%;position:relative;">
+				<div class="oxygenBar" data-translate="oxygen" style="background: linear-gradient(90deg, rgb(117, 181, 240) 100%, white 100%); border: 1px solid white; width: 100%;">oxygen</div>
+				<div class="waterBar" style="background: linear-gradient(90deg, rgb(20, 102, 184) 53.19%, white 53.19%); border: 1px solid white; width: 100%;"><span data-translate="water">water</span><span class="timer"></span></div>
+				<div class="skillRightDescription">Skill name: Hot bath<br>Type: Passive<br>Description: You can swim in the lava. In addition, you quench your thirst in lava.</div>
+				<div class="youEat"><span data-translate="you_eat">You eat</span>:<div class="food"><div class="item" data-exp="3200"><div class="info"><span>3200 EXP</span></div><img src="data:image/png;base64,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"></div></div></div>
+				</div>
+				<div style="float:right;width:calc(12% - 1px)">
+				<div class="skillRight" style="background-image: url(&quot;https://cdn1.eu.evoworld.io/sprites/skills/hotBath.png&quot;);">
+					<div class="bar" style="height: 0%;"></div>
+					<div class="rclick" style="display: none;"></div>
+					<!--<img class="arrow" src="https://evoworld.io/images/arrow_up.gif">-->
+				</div>
+			</div>
+		</div>
+		
+		<div class="textMsg" style="color: rgb(20, 102, 184); display: none;">Your water level is low! You need to drink water to survive!</div>
+	
+
+	<div class="emotesMenu">
+			<a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#wheel" class="wheel-button" style="z-index: 6;">
+			<i class="customicon-plus"></i>
+			  </a>
+	    <ul id="wheel" class="wheel" style="display: none; position: fixed; z-index: 5; padding: 30px; top: 288px; left: 587px; visibility: hidden;">
+		<li class="item" style="position: absolute; left: 210px; top: 110px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="1"><img src="./1.png"></a></li>  
+		<li class="item" style="position: absolute; left: 199px; top: 156px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="2"><img src="./2.png"></a></li>
+		<li class="item" style="position: absolute; left: 167px; top: 192px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="3"><img src="./3.png"></a></li>
+		<li class="item" style="position: absolute; left: 122px; top: 209px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="4"><img src="./4.png"></a></li>
+	    <li class="item" style="position: absolute; left: 75px; top: 204px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="5"><img src="./5.png"></a></li>
+	    <li class="item" style="position: absolute; left: 35px; top: 176px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="6"><img src="./6.png"></a></li>
+	    <li class="item" style="position: absolute; left: 13px; top: 134px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="7"><img src="./7.png"></a></li>
+		<li class="item" style="position: absolute; left: 13px; top: 86px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="8"><img src="./8.png"></a></li>
+		<li class="item" style="position: absolute; left: 35px; top: 44px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="9"><img src="./9.png"></a></li>
+		<li class="item" style="position: absolute; left: 75px; top: 16px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="10"><img src="./10.png"></a></li>
+		<li class="item" style="position: absolute; left: 122px; top: 11px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="11"><img src="./11.png"></a></li>
+		<li class="item" style="position: absolute; left: 167px; top: 28px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="12"><img src="./12.png"></a></li>
+		<li class="item" style="position: absolute; left: 199px; top: 64px; opacity: 0;"><a onclick="sendEmote($(this).data(&#39;emote-id&#39;))" data-emote-id="13"><img src="./13.png"></a></li>
+
+	      </ul>
+		  <script type="text/javascript">
+				/*$(".wheel-button").wheelmenu({
+					trigger: "hover",
+					animation: "fade",
+					angle: [0, 270]
+				});*/
+		   </script>
+
+		   
+	</div>
+
+
+	<img id="scan-players-icon" src="./scan-players-done.png" onclick="scanPlayers()" data-status="empty" style="display: none; background: rgb(0, 176, 0);">
+
+	<ul class="chatmenu" id="chatmenu" style="display: none;">
+	<input class="chatinput" type="text" maxlength="60" style="display: none;">
+	<li><a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="chatmenulink                                                                                                                "><img src="./text_chat.png"></a>
+		<ul style="overflow: hidden; display: block; height: 0px; z-index: 93; opacity: 1;">
+			<li>
+				<a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="sub topline             " style="top:-1px;"><span data-translate="chat_hello" data-translate-ucfirst="true">Hello</span>/<span data-translate="chat_goodbye" data-translate-ucfirst="true">Goodbye</span></a>
+				<ul style="top: 0px; overflow: hidden; display: block; height: 0px; z-index: 91; opacity: 1;">
+					<li class="topline"><a onclick="sendChat(1)" data-translate="chat_1" data-translate-ucfirst="true">Hello!</a></li>
+					<li><a onclick="sendChat(2)" data-translate="chat_2" data-translate-ucfirst="true">Hi!</a></li>
+					<li><a onclick="sendChat(3)" data-translate="chat_3" data-translate-ucfirst="true">Goodbye!</a></li>
+					<li><a onclick="sendChat(4)" data-translate="chat_4" data-translate-ucfirst="true">See you later!</a></li>
+					<li><a onclick="sendChat(5)" data-translate="chat_5" data-translate-ucfirst="true">I have to go</a></li>
+				</ul>
+			
+			</li>
+			<li>
+				<a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="sub          " data-translate="chat_emotions">Emotions</a>
+				<ul style="top: -24.5px; overflow: hidden; display: block; height: 0px; z-index: 90; opacity: 1;">
+					<li class="topline"><a onclick="sendChat(6)" data-translate="chat_6" data-translate-ucfirst="true">Thanks!</a></li>
+					<li><a onclick="sendChat(7)" data-translate="chat_7" data-translate-ucfirst="true">I'm sorry</a></li>
+					<li><a onclick="sendChat(8)" data-translate="chat_8" data-translate-ucfirst="true">I like you</a></li>
+					<li><a onclick="sendChat(9)" data-translate="chat_9" data-translate-ucfirst="true">Oh no!</a></li>
+					<li><a onclick="sendChat(10)" data-translate="chat_10" data-translate-ucfirst="true">I hate you!</a></li>
+					<li><a onclick="sendChat(11)" data-translate="chat_11" data-translate-ucfirst="true">I will kill you!</a></li>
+					<li><a onclick="sendChat(12)" data-translate="chat_12" data-translate-ucfirst="true">Wow!</a></li>
+					<li><a onclick="sendChat(13)" data-translate="chat_13" data-translate-ucfirst="true">Hahahaha!</a></li>
+					<li><a onclick="sendChat(14)" data-translate="chat_14" data-translate-ucfirst="true">That was funny!</a></li>
+					<li><a onclick="sendChat(15)" data-translate="chat_15" data-translate-ucfirst="true">LOL!</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="sub                     " data-translate="chat_questions" data-translate-ucfirst="true">Questions</a>
+				<ul style="top: -48px; overflow: hidden; display: block; height: 0px; z-index: 89; opacity: 1;">
+					<li class="topline"><a onclick="sendChat(16)" data-translate="chat_16" data-translate-ucfirst="true">How are you?</a></li>
+					<li><a onclick="sendChat(17)" data-translate="chat_17" data-translate-ucfirst="true">Do you want to be friends?</a></li>
+					<li>
+						<a class="sub       " data-translate="chat_where" data-translate-ucfirst="true">Where</a>
+						<ul style="overflow: hidden; display: block; height: 0px; z-index: 87; opacity: 1;">
+							<li class="topline"><a onclick="sendChat(18)" data-translate="chat_18" data-translate-ucfirst="true">Where do you want to go?</a></li>
+							<li><a onclick="sendChat(19)" data-translate="chat_19" data-translate-ucfirst="true">Where are you going?</a></li>
+						</ul>
+					</li>
+					<li><a onclick="sendChat(20)" data-translate="chat_20" data-translate-ucfirst="true">Do you like me?</a></li>
+					<li><a onclick="sendChat(21)" data-translate="chat_21" data-translate-ucfirst="true">Will you kill me?</a></li>
+					<li><a onclick="sendChat(22)" data-translate="chat_22" data-translate-ucfirst="true">Fight?</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="sub                               " data-translate="chat_answers" data-translate-ucfirst="true">Answers</a>
+				<ul style="top: -71.5px; overflow: hidden; display: block; height: 0px; z-index: 84; opacity: 1;">
+					<li class="topline"><a onclick="sendChat(23)" data-translate="chat_23" data-translate-ucfirst="true">Yes</a></li>
+					<li><a onclick="sendChat(24)" data-translate="chat_24" data-translate-ucfirst="true">No</a></li>
+					<li>
+						<a class="sub            " data-translate="chat_locations" data-translate-ucfirst="true">Locations</a>
+						<ul style="top: -95px; overflow: hidden; display: block; height: 0px; z-index: 85; opacity: 1;">	
+							<li class="topline"><a onclick="sendChat(25)" data-translate="chat_25" data-translate-ucfirst="true">Ice cave</a></li>	
+							<li><a onclick="sendChat(26)" data-translate="chat_26" data-translate-ucfirst="true">Ice tower</a></li>	
+							<li><a onclick="sendChat(27)" data-translate="chat_27" data-translate-ucfirst="true">Cemetery</a></li>	
+							<li><a onclick="sendChat(28)" data-translate="chat_28" data-translate-ucfirst="true">City</a></li>	
+							<li><a onclick="sendChat(29)" data-translate="chat_29" data-translate-ucfirst="true">Sewage treatment plant</a></li>	
+							<li><a onclick="sendChat(30)" data-translate="chat_30" data-translate-ucfirst="true">Desert</a></li>	
+							<li><a onclick="sendChat(31)" data-translate="chat_31" data-translate-ucfirst="true">Jungle</a></li>	
+							<li><a onclick="sendChat(32)" data-translate="chat_32" data-translate-ucfirst="true">Volcanic biome</a></li>	
+							<li><a onclick="sendChat(33)" data-translate="chat_33" data-translate-ucfirst="true">Cosmos</a></li>	
+							<li><a onclick="sendChat(45)" data-translate="chat_45" data-translate-ucfirst="true">Demonic Angel (boss)</a></li>	
+						</ul>
+					</li>
+					<li><a onclick="sendChat(43)" data-translate="chat_43" data-translate-ucfirst="true">Ok</a></li>
+					<li><a onclick="sendChat(34)" data-translate="chat_34" data-translate-ucfirst="true">I'm fine</a></li>
+					<li><a onclick="sendChat(35)" data-translate="chat_35" data-translate-ucfirst="true">I'm happy!</a></li>
+					<li><a onclick="sendChat(36)" data-translate="chat_36" data-translate-ucfirst="true">I'm sad</a></li>
+					<li><a onclick="sendChat(37)" data-translate="chat_37" data-translate-ucfirst="true">I'm angry</a></li>
+				</ul>
+			</li>
+
+			<li>
+				<a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="sub          " data-translate="chat_commands" data-translate-ucfirst="true">Commands</a>
+				<ul style="top: -95px; overflow: hidden; display: block; height: 0px; z-index: 83; opacity: 1;">
+					<li class="topline"><a onclick="sendChat(38)" data-translate="chat_38" data-translate-ucfirst="true">Hold on</a></li>
+					<li><a onclick="sendChat(39)" data-translate="chat_39" data-translate-ucfirst="true">Come Here</a></li>
+					<li><a onclick="sendChat(44)" data-translate="chat_44" data-translate-ucfirst="true">Follow me</a></li>
+					<li><a onclick="sendChat(40)" data-translate="chat_40" data-translate-ucfirst="true">Leave it alone!</a></li>
+					<li><a onclick="sendChat(41)" data-translate="chat_41" data-translate-ucfirst="true">This is mine!</a></li>
+					<li><a onclick="sendChat(42)" data-translate="chat_42" data-translate-ucfirst="true">Go away!</a></li>
+				</ul>
+			</li>
+
+			<li id="myDiscordMenu"><a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" class="sub             ">Discord</a><ul style="overflow: hidden; display: block; height: 0px; z-index: 92; opacity: 1;"><li class="topline"><a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" style="color:grey; cursor:not-allowed;">Ask others for Discord profile</a></li><li><a href="https://87ce1a16-3945-11ea-bd44-acde48001122.poki-gdn.com/43d9f419-e97f-4b85-b09b-bc90e6de356b/index.html?country=IN&amp;ccpaApplies=0&amp;url_referrer=https%3A%2F%2Fpoki.com%2F&amp;tag=pg-v3.114.0&amp;site_id=3&amp;iso_lang=en&amp;poki_url=https%3A%2F%2Fpoki.com%2Fen%2Fg%2Fflyordie-io&amp;gdhoist=yes&amp;nonPersonalized=n&amp;familyFriendly=n&amp;categories=37%2C64%2C101%2C1018%2C1120%2C1140%2C1143%2C1147%2C1156&amp;special_condition=landing&amp;game_id=87ce1a16-3945-11ea-bd44-acde48001122&amp;game_version_id=43d9f419-e97f-4b85-b09b-bc90e6de356b#" style="color:grey;cursor:not-allowed;">Send your profile</a></li><li><a onclick="window.open(&#39;https://evoworld.io/setdiscord?action=login&#39;,&#39;set discord&#39;,&#39;resizable,height=800,width=370&#39;); return false;" target="_blank">Link your Discord account (opens new tab)</a></li></ul></li>
+
+		</ul>
+	</li>
+</ul>
+	
+			<div class="mobileControls" style="display: none;">
+				<button class="zoom" type="button" onclick="fullScreen(true);" ontouchstart="if (gameZoom==1) {gameZoom=1.5} else if (gameZoom==1.5) {gameZoom=2} else {gameZoom=1}">🔍</button>
+				<button class="emotes" type="button" ontouchstart="if (!emotesMenuOpened) showEmotesMenu(); else hideEmotesMenu()">🙂</button>
+				
+				<button type="button" class="left" onclick="fullScreen(true);" ontouchstart="gameServer.emit(socketMsgType.FLY, -1); mouseActive=false; game.me.flySide = -1;" ontouchend="if (game.me.flySide == -1) {gameServer.emit(socketMsgType.FLY, 0); game.me.flySide = 0;}"></button>
+				<button type="button" class="right" onclick="fullScreen(true);" ontouchstart="gameServer.emit(socketMsgType.FLY, 1); mouseActive=false; game.me.flySide = 1;" ontouchend="if (game.me.flySide == 1) {gameServer.emit(socketMsgType.FLY, 0); game.me.flySide = 0;}"></button>
+				<button type="button" class="up" onclick="fullScreen(true);" ontouchstart="boost()" style="float:right"></button>
+				<button type="button" onclick="fullScreen(true);" id="skillButton" ontouchstart="skillUse();" ontouchend="skillStop();" style="float: right; background-size: 100% 100%; opacity: 0.6; background-image: url(&quot;https://cdn1.eu.evoworld.io/sprites/skills/speedUp.png&quot;); display: none;"></button>
+				
+				<script>
+				$('.mobileControls button').bind('touchend', function(e) {
+				  e.preventDefault();
+				  $(this).click();
+				})
+				</script>
+			
+			</div>
+<div id="skins" class="tabcontentshop" style="display: none;">
+
+
+        <div class="tab-title" data-translate="grim_reaper"></div>
+
+                
+                
+        
+
+
+                
+
+                
+
+        
+                
+
+                
+
+                
+
+                
+
+                
+
+
+
+
+
+                
+
+                
+            
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+        
+                
+
+        
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+        
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+
+
+                
+        
+                
+
+                
+
+                
+
+                
+        
+        
+        
+        
+				
+		
+        
+        
+        
+        
+        
+
+        
+        
+        
+                
+        
+                
+                <div class="tab-title" data-translate="pumpkin_ghost"></div>
+                        	
+
+                
+
+                
+
+                	
+        
+                	
+        
+                
+
+                
+
+                	
+
+                
+
+                
+
+                	
+
+                	
+
+        
+        
+        
+        
+        		
+        
+        
+        
+        
+        
+        <div class="tab-title" data-translate="ghostly_reaper"></div>
+                        	
+
+                	
+
+                	
+
+                
+
+                	
+
+                
+
+                	
+
+                	
+
+                	
+        
+        
+		
+        		
+        
+        
+
+        
+        
+        
+                
+        
+        
+        <div class="tab-title" data-translate="ghost"></div>
+
+                	
+
+                        	
+
+                
+
+        
+                
+        
+                	
+
+                	
+
+                	
+
+                	
+
+				
+                
+        
+        
+        
+        
+        
+        
+
+        
+    </div><div id="pets" class="tabcontentshop" style="display: none;">
+
+        <br>
+                <span style="color:red" data-translate="pets_need_premium_1"></span>
+        
+
+        <div class="tab-title" data-translate="pets"></div>
+        <div style="filter: grayscale(100%); pointer-events: none;">
+                <div class="offer skin" data-unblocked="1" data-skin="pets" data-skin-id="1" onclick="selectSkin(this)" style="cursor:pointer">
+        <div class="offer-title"><span data-translate="purple_insect" data-translate-ucfirst="true"></span></div>
+              <img class="offer-image sprite-image" data-name="pet_1_1_right" style="height:89px;margin:17px 0px 16px;" onmouseenter="showSkinAnimation(this,&#39;pet_1&#39;);" onmouseleave="stopSkinAnimation(this);" src="./1(1).png"><br>
+            <div class="text-owned" data-translate="owned"></div>        </div>		
+
+                <div class="offer skin" data-unblocked="1" data-skin="pets" data-skin-id="2" onclick="selectSkin(this)" style="cursor:pointer">
+        <div class="offer-title"><span data-translate="fly" data-translate-ucfirst="true"></span></div>
+              <img class="offer-image sprite-image" data-name="pet_2_1_right" style="height:89px;margin:17px 0px 16px;" onmouseenter="showSkinAnimation(this,&#39;pet_2&#39;);" onmouseleave="stopSkinAnimation(this);" src="./1(2).png"><br>
+            <div class="text-owned" data-translate="owned"></div>        </div>	
+
+                <div class="offer skin" data-unblocked="1" data-skin="pets" data-skin-id="3" onclick="selectSkin(this)" style="cursor:pointer">
+        <div class="offer-title"><span data-translate="green_bird" data-translate-ucfirst="true"></span></div>
+              <img class="offer-image sprite-image" data-name="pet_3_1_right" style="height:89px;margin:17px 0px 16px;" onmouseenter="showSkinAnimation(this,&#39;pet_3&#39;);" onmouseleave="stopSkinAnimation(this);" src="./1(3).png"><br>
+            <div class="text-owned" data-translate="owned"></div>        </div>	
+
+                	
+
+                	
+
+                	
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        </div>  
+        <div style="clear:both;"></div>   
+              
+        </div></div>
+<canvas id="canvasGame" width="1920" height="1080" style="width: 1486.22px; height: 836px; margin-top: 0px; margin-left: -23.1111px;"></canvas>
+
+
+
+<script src="./loader.js"></script>
+<script src="./js(1)"></script>
+<script>
+gtag('js', new Date());
+gtag('config', 'UA-117198337-1', {
+	cookie_flags: 'max-age=7200;secure;samesite=none'
+});
+
+setInterval(function(){
+if (gameServer.connected)
+	gtag('event', 'online', {'event_category' : 'online'});
+},60000);
+</script>
+
+
+<script type="application/ld+json">
+{"@context":"https://schema.org",
+"@type":"WebApplication",
+"name":"EvoWorld.io",
+"url":"https://EvoWorld.io",
+"author":{"@type":"Organization","name":"Pixel Voices", "url":"https://pixelvoices.com"},
+"description":"Evoworld.io is a unique evolution free-for-all survival .io game. Here you will spawn as a little fly. Explore the map and evolve your character. Eat food that you can find on the map to get experience. You have to fight with other players that you can meet on this big map. This game is really unique compared to other .io games, here you will have many hours of good fun. Compete with your enemies. Here you will find many biomes and ground levels like space or caves. Evolve to the end and show your enemies who is the king. There is also a leaderboard system, if you want to be first you have to gain as many experience points as possible.",
+"applicationCategory":"Game",
+"applicationSubCategory":".io Game",
+"operatingSystem":"2018-04-10",
+"image":"https://evoworld.io/images/evoworld-icon.png"}
+</script>
+
+</body></html>

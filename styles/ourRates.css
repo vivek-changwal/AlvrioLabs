@@ -1,0 +1,82 @@
+.our-rates-triangle {
+  width: 42px;
+}
+.our-rates-zigzag-top {
+  left: 97px;
+}
+.our-rates-right {
+  left: 40px;
+  top: 70px;
+}
+.our-rates-person {
+  left: 77px;
+}
+.our-rates-circle-left {
+  left: 268.5px;
+  top: 70px;
+}
+.our-rates-test-tube {
+  left: 308px;
+}
+.our-rates-control {
+  top: 208px;
+}
+.our-rates-paper {
+  width: 75px;
+  top: 56px;
+}
+.our-rates-square {
+  left: 214px;
+  top: 252px;
+}
+.our-rates-pipe {
+  left: 256px;
+  width: 45px;
+}
+.our-rates-plus {
+  left: 275px;
+  top: 45px;
+}
+.our-rates-plus-1 {
+  top: 258px;
+}
+.our-rates-triangle-dark {
+  left: 282px;
+  top: 215px;
+}
+.our-rates-zig-zag {
+  left: 284px;
+  top: 266px;
+}
+
+@media screen and (max-device-width: 1024px) {
+  .images-rates {
+    position: relative !important;
+  }
+
+  .text-rates {
+    position: relative;
+    margin-top: 404px;
+  }
+}
+
+@media screen and (max-device-width: 480px) {
+  .our-rates-person {
+    top: 10px;
+    max-width: 250px;
+  }
+  .our-rates-test-tube{
+    display: none;
+  }
+  .our-rates-circle-left{
+    left: 154px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 714px)  {
+  .our-rates-person {
+    top: 10px;
+    height: 250px;
+    max-width: 222px;
+}
+}
